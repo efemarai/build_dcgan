@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/data/celeba_small.zip
+/data/celeba_small/

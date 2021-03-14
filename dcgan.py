@@ -24,8 +24,8 @@ dataroot = "data/img_align_celeba"
 # outfolder
 outf = 'models/'
 
-# netD_path = 'models/netD_epoch_3.pth'
-# netG_path = 'models/netG_epoch_3.pth'
+# netD_path = 'models/netD_epoch_4.pth'
+# netG_path = 'models/netG_epoch_4.pth'
 netD_path = ''
 netG_path = ''
 
@@ -263,7 +263,6 @@ for epoch in range(num_epochs):
         if i % 200 == 0:
             print("[%d/%d][%d/%d]\tLoss_D: %.4f\tLoss_G: %.4f"
                 % (epoch, num_epochs, i, len(dataloader), errD.item(), errG.item()))
-            exit(0)
 
 
     # Show some images
